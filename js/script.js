@@ -9,6 +9,7 @@ const getting = () =>{
 }
 const displayResultItem = (items) => {
     const displayResult = document.getElementById('item')
+    displayResult.textContent = ''
     items.forEach(element => {
         const item = document.createElement('div')
         item.classList.add('col')
